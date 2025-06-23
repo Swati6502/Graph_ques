@@ -28,8 +28,9 @@ class graph{
                 for(auto j:i.second){
                     cout<<j<<",";
                 }
+                 cout<<endl;
             }
-            cout<<endl;
+           
         }
 };
 
