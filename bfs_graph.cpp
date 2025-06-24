@@ -58,5 +58,7 @@ vector<int>solve(int n, int u, int v, int direction){
             bfs(adj,visited,ans,i);
         }
     }
+
+    return ans;
     
 }
