@@ -13,7 +13,6 @@ int detectCycleInDirectedGraph(int n, vector < pair < int, int >> & edges)
     {
         int u = edges[i].first-1;
         int v= edges[i].second-1;
-        
         adj[u].push_back(v);
     }
     
