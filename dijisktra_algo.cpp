@@ -7,6 +7,8 @@
 
 using namespace std;
 
+
+// using priority queue
 vector<int> dijkstra(int v, vector<vector<int>> &edges, int src) {
         // Code here
         
